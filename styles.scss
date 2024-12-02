@@ -1,0 +1,123 @@
+.logo {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid black;
+    
+}
+.Container {
+    display: flex;
+    
+    .cafe {
+    height: 400px;
+    background-color: #689572;
+    text-align: left;
+    width: 50%;
+    display: table-column;
+    justify-content: center;
+    vertical-align: middle;
+    gap: 5px;
+    }
+
+   .hero_image__styling {
+    width: 50%;
+    height: 400px;
+  }
+    .cafe-title {
+    color: white;
+    font-family: "Rammetto One", sans-serif;
+    font-size: 2em;
+    padding: 20px;  
+   }
+   .trait {
+    color: white;
+    padding: 20px;
+   }
+}
+.Container1 {
+    height: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    
+    gap: 1em;
+    
+}
+ .dessert {
+        width: 250px;
+        display: flex;
+        gap: 1em;
+        padding: 10px;
+        background-color: #EBC9C4;
+    }
+    .dessert__image {
+        height: 250px;
+        width: 250px;
+
+    }
+    
+.Container2 {
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 1em;
+}
+
+.Drinks {
+    height: 50px;
+    display: flex;
+    background-color: #FAA196;
+    padding: 20px;
+}
+
+#reviews-button {
+    background-color: #689572;
+    color: white;
+    height: 50px;
+    margin-left: 20px;
+    border-color: white; 
+}
+.menu {
+    text-align: center;
+    color: #FAA196;
+    font-family: "Rammetto One", sans-serif;
+}
+.food {
+    background-color: #FAA196;
+    height: 50px;
+    padding-inline: 10px;
+    padding-top: 10px;
+
+}
+.box {
+    background-color: #FAA196;
+    height: 500px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.User-review {
+    border: 2px solid white;
+    height: 100px;
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    font-style: italic;
+    font-weight: bold;
+    text-align: center;
+    
+}
+.review {
+    font-family: "Rammetto One", sans-serif;
+    color: white;
+    font-size: 2em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+}
